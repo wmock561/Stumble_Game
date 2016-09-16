@@ -67,7 +67,7 @@ public class playerScript : MonoBehaviour {
 			setScoreText ();
 		}
 
-		#if UNITY_STANDALONE || UNITY_STANDALONE_OSX
+		#if UNITY_STANDALONE || UNITY_STANDALONE_OSX || UNITY_WEBGL
 
 		if (Input.GetKeyDown(KeyCode.LeftArrow))
 		{
